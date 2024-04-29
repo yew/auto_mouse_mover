@@ -58,7 +58,7 @@
             // StartButton
             // 
             this.StartButton.Location = new System.Drawing.Point(33, 334);
-            this.StartButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.StartButton.Margin = new System.Windows.Forms.Padding(7);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(175, 51);
             this.StartButton.TabIndex = 0;
@@ -89,7 +89,7 @@
             // MovingPixelBox
             // 
             this.MovingPixelBox.Location = new System.Drawing.Point(411, 138);
-            this.MovingPixelBox.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MovingPixelBox.Margin = new System.Windows.Forms.Padding(7);
             this.MovingPixelBox.Maximum = new decimal(new int[] {
             25,
             0,
@@ -112,7 +112,7 @@
             // MovingPeriodBox
             // 
             this.MovingPeriodBox.Location = new System.Drawing.Point(411, 80);
-            this.MovingPeriodBox.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MovingPeriodBox.Margin = new System.Windows.Forms.Padding(7);
             this.MovingPeriodBox.Maximum = new decimal(new int[] {
             30,
             0,
@@ -201,7 +201,7 @@
             // 
             this.StopButton.Enabled = false;
             this.StopButton.Location = new System.Drawing.Point(480, 334);
-            this.StopButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.StopButton.Margin = new System.Windows.Forms.Padding(7);
             this.StopButton.Name = "StopButton";
             this.StopButton.Size = new System.Drawing.Size(175, 51);
             this.StopButton.TabIndex = 10;
@@ -215,7 +215,7 @@
             this.MinimizeToTrayBarBox.Checked = true;
             this.MinimizeToTrayBarBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.MinimizeToTrayBarBox.Location = new System.Drawing.Point(35, 207);
-            this.MinimizeToTrayBarBox.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.MinimizeToTrayBarBox.Margin = new System.Windows.Forms.Padding(7);
             this.MinimizeToTrayBarBox.Name = "MinimizeToTrayBarBox";
             this.MinimizeToTrayBarBox.Size = new System.Drawing.Size(395, 33);
             this.MinimizeToTrayBarBox.TabIndex = 11;
@@ -229,7 +229,7 @@
             this.ShowTrayBarIconBox.Checked = true;
             this.ShowTrayBarIconBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ShowTrayBarIconBox.Location = new System.Drawing.Point(35, 259);
-            this.ShowTrayBarIconBox.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.ShowTrayBarIconBox.Margin = new System.Windows.Forms.Padding(7);
             this.ShowTrayBarIconBox.Name = "ShowTrayBarIconBox";
             this.ShowTrayBarIconBox.Size = new System.Drawing.Size(422, 33);
             this.ShowTrayBarIconBox.TabIndex = 12;
@@ -245,20 +245,20 @@
             this.MenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip.Name = "MenuStrip";
             this.MenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.MenuStrip.Size = new System.Drawing.Size(688, 49);
+            this.MenuStrip.Size = new System.Drawing.Size(688, 54);
             this.MenuStrip.TabIndex = 13;
             // 
             // StripMenuAbout
             // 
             this.StripMenuAbout.Name = "StripMenuAbout";
-            this.StripMenuAbout.Size = new System.Drawing.Size(112, 41);
+            this.StripMenuAbout.Size = new System.Drawing.Size(112, 50);
             this.StripMenuAbout.Text = "About";
             this.StripMenuAbout.Click += new System.EventHandler(this.StripMenuAbout_Click);
             // 
             // AutoMouseMoverForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(216F, 216F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(688, 462);
             this.Controls.Add(this.ShowTrayBarIconBox);
             this.Controls.Add(this.MinimizeToTrayBarBox);
@@ -274,7 +274,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.MenuStrip;
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.MaximizeBox = false;
             this.Name = "AutoMouseMoverForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
