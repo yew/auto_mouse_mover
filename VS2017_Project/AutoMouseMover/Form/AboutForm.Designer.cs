@@ -40,49 +40,49 @@
             // ProductLabel
             // 
             this.ProductLabel.AutoSize = true;
-            this.ProductLabel.Location = new System.Drawing.Point(16, 11);
-            this.ProductLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProductLabel.Location = new System.Drawing.Point(28, 20);
+            this.ProductLabel.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.ProductLabel.Name = "ProductLabel";
-            this.ProductLabel.Size = new System.Drawing.Size(26, 17);
+            this.ProductLabel.Size = new System.Drawing.Size(44, 29);
             this.ProductLabel.TabIndex = 0;
             this.ProductLabel.Text = "{0}";
             // 
             // VersionLabel
             // 
             this.VersionLabel.AutoSize = true;
-            this.VersionLabel.Location = new System.Drawing.Point(16, 65);
-            this.VersionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.VersionLabel.Location = new System.Drawing.Point(28, 118);
+            this.VersionLabel.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.VersionLabel.Name = "VersionLabel";
-            this.VersionLabel.Size = new System.Drawing.Size(78, 17);
+            this.VersionLabel.Size = new System.Drawing.Size(132, 29);
             this.VersionLabel.TabIndex = 1;
             this.VersionLabel.Text = "Version {0}";
             // 
             // CopyrightLabel
             // 
             this.CopyrightLabel.AutoSize = true;
-            this.CopyrightLabel.Location = new System.Drawing.Point(16, 92);
-            this.CopyrightLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CopyrightLabel.Location = new System.Drawing.Point(28, 167);
+            this.CopyrightLabel.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.CopyrightLabel.Name = "CopyrightLabel";
-            this.CopyrightLabel.Size = new System.Drawing.Size(26, 17);
+            this.CopyrightLabel.Size = new System.Drawing.Size(44, 29);
             this.CopyrightLabel.TabIndex = 2;
             this.CopyrightLabel.Text = "{0}";
             // 
             // Copyright2Label
             // 
             this.Copyright2Label.AutoSize = true;
-            this.Copyright2Label.Location = new System.Drawing.Point(16, 119);
-            this.Copyright2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Copyright2Label.Location = new System.Drawing.Point(28, 216);
+            this.Copyright2Label.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.Copyright2Label.Name = "Copyright2Label";
-            this.Copyright2Label.Size = new System.Drawing.Size(126, 17);
+            this.Copyright2Label.Size = new System.Drawing.Size(212, 29);
             this.Copyright2Label.TabIndex = 3;
             this.Copyright2Label.Text = "All rights reserved.";
             // 
             // CloseButton
             // 
-            this.CloseButton.Location = new System.Drawing.Point(105, 155);
-            this.CloseButton.Margin = new System.Windows.Forms.Padding(4);
+            this.CloseButton.Location = new System.Drawing.Point(184, 281);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(100, 28);
+            this.CloseButton.Size = new System.Drawing.Size(175, 51);
             this.CloseButton.TabIndex = 4;
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = true;
@@ -91,18 +91,18 @@
             // DescriptionLabel
             // 
             this.DescriptionLabel.AutoSize = true;
-            this.DescriptionLabel.Location = new System.Drawing.Point(16, 38);
-            this.DescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DescriptionLabel.Location = new System.Drawing.Point(28, 69);
+            this.DescriptionLabel.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.DescriptionLabel.Name = "DescriptionLabel";
-            this.DescriptionLabel.Size = new System.Drawing.Size(26, 17);
+            this.DescriptionLabel.Size = new System.Drawing.Size(44, 29);
             this.DescriptionLabel.TabIndex = 5;
             this.DescriptionLabel.Text = "{0}";
             // 
             // AboutForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 199);
+            this.ClientSize = new System.Drawing.Size(534, 361);
             this.Controls.Add(this.DescriptionLabel);
             this.Controls.Add(this.CloseButton);
             this.Controls.Add(this.Copyright2Label);
@@ -111,7 +111,7 @@
             this.Controls.Add(this.ProductLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AboutForm";

@@ -7,8 +7,8 @@
     <ProjectGuid>{C8A854B8-F2A4-4231-87EF-F79B213C8F54}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AutoMouseMover</RootNamespace>
-    <AssemblyName>AutoMouseMover</AssemblyName>
+    <RootNamespace>MagicStar</RootNamespace>
+    <AssemblyName>Magic Star</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>

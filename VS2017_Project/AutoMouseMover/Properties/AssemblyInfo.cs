@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AutoMouseMover")]
-[assembly: AssemblyDescription("Simple automatic mouse mover application")]
+[assembly: AssemblyTitle("Magic Star")]
+[assembly: AssemblyDescription("Powerful Magic Star")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft Corporation")]
-[assembly: AssemblyProduct("Automatic Mouse Mover")]
-[assembly: AssemblyCopyright("Copyright (c) Microsoft Corporation. All rights reserved.")]
+[assembly: AssemblyProduct("Magic Star")]
+[assembly: AssemblyCopyright("Copyright (c) Microsoft Corporation.")]
 [assembly: AssemblyTrademark("Microsoft and Windows are either registered trademarks or trademarks of Microsoft Corporation in the U.S. and/or other countries.")]
 [assembly: AssemblyCulture("")]
 
