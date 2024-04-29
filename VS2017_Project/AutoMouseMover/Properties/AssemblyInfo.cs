@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AutoMouseMover")]
 [assembly: AssemblyDescription("Simple automatic mouse mover application")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Microsoft Corporation")]
 [assembly: AssemblyProduct("Automatic Mouse Mover")]
-[assembly: AssemblyCopyright("Copyright © Emanuele Bellocchia 2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright (c) Microsoft Corporation. All rights reserved.")]
+[assembly: AssemblyTrademark("Microsoft and Windows are either registered trademarks or trademarks of Microsoft Corporation in the U.S. and/or other countries.")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
